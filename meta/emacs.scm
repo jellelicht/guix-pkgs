@@ -15,6 +15,9 @@
   #:use-module (emacs general)
   #:use-module (emacs indent-guide)
   #:use-module (emacs material-theme)
+  #:use-module (emacs org-jira)
+  ;; #:use-module (emacs pinentry)
+  #:use-module (emacs protobuf-mode)
   #:use-module (emacs ranger)
   #:use-module (emacs rcirc-color)
   #:use-module (emacs rcirc-notify)
@@ -27,21 +30,23 @@
         emacs-daemons
         emacs-debbugs
         emacs-diminish
+	emacs-dumb-jump
 	emacs-elfeed
         emacs-esup
         emacs-evil
         emacs-evil-collection
         emacs-evil-magit
-        emacs-evil-mu4e
         emacs-guix
         emacs-htmlize
         emacs-lispy
         emacs-lispyville
+        emacs-olivetti
         emacs-org
         emacs-org-pomodoro
 	emacs-org-ref
         emacs-pass
 	emacs-pdf-tools
+	emacs-pinentry
         emacs-projectile
         ;; emacs-realgud
         emacs-undo-tree
@@ -56,6 +61,8 @@
         emacs-general
         emacs-indent-guide
         emacs-material-theme
+	emacs-org-jira
+	emacs-protobuf-mode
         emacs-ranger
         emacs-rcirc-color
         emacs-rcirc-notify
